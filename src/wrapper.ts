@@ -72,9 +72,10 @@ export class SOR {
     // Fetch allPools from URL then retrieve OnChain balances
     async fetchPools(): Promise<boolean> {
         try {
-            let allPools = await this.pools.getAllPublicSwapPools(
-                this.poolsUrl
-            );
+            // let allPools = await this.pools.getAllPublicSwapPools(
+            //     this.poolsUrl
+            // );
+            let allPools = this.pools.getAllPublicSwapPools(this.poolsUrl);
 
             let previousStringify = JSON.stringify(this.onChainCache); // Used for compare
 
