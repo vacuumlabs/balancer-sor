@@ -30,6 +30,7 @@ export class SOR {
     MULTIADDR: { [chainId: number]: string } = {
         1: '0x514053acec7177e277b947b1ebb5c08ab4c4580e',
         42: '0x71c7f1086aFca7Aa1B0D4d73cfa77979d10D3210',
+        1313161556: '0x3634DEFD99bfe246CF6a89Ba68265D2800C6d801',
     };
 
     constructor(

@@ -27,12 +27,7 @@ export async function getAllPoolDataOnChain(
         });
     }
 
-    // use hard coded pool balances for now
-    // let results = await contract.getPoolInfo(addresses, total);
-    let results = [
-        bmath.bnum('100000000000000000000'),
-        bmath.bnum('1000000000000000000000'),
-    ];
+    let results = await contract.getPoolInfo(addresses, total);
 
     let j = 0;
     let onChainPools: Pools = { pools: [] };
