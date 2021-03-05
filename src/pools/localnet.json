@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "id": "0xa332f23b4dc7e60dd80a6a95b6f90b309372f118",
+            "publicSwap": "true",
+            "swapFee": "0.000001",
+            "tokens": [
+                {
+                    "address": "0x00546b70b619a35c5a69fea3ec676a4894e828b4",
+                    "balance": "100",
+                    "decimals": "18",
+                    "denormWeight": "10"
+                },
+                {
+                    "address": "0x3655aff15d8aed0e28915f5bf6866a95f9084cd8",
+                    "balance": "1000",
+                    "decimals": "18",
+                    "denormWeight": "1"
+                }
+            ],
+            "tokensList": [
+                "0x00546b70b619a35c5a69fea3ec676a4894e828b4",
+                "0x3655aff15d8aed0e28915f5bf6866a95f9084cd8"
+            ],
+            "totalWeight": "11"
+        }
+    ]
+}

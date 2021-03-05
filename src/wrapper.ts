@@ -31,6 +31,7 @@ export class SOR {
         1: '0x514053acec7177e277b947b1ebb5c08ab4c4580e',
         42: '0x71c7f1086aFca7Aa1B0D4d73cfa77979d10D3210',
         1313161556: '0x3634DEFD99bfe246CF6a89Ba68265D2800C6d801',
+        1313161555: '0xa7F789874034C38bdB45DE5b0Fe9e301078C8200',
     };
 
     constructor(

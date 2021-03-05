@@ -1,7 +1,7 @@
 import fetch from 'isomorphic-fetch';
 import { SubGraphPools, Pools, Pool, Token } from './types';
 import * as bmath from './bmath';
-import pools from './pools/betanet.json';
+import pools from './pools/localnet.json';
 
 export class POOLS {
     getAllPublicSwapPools(URL: string): SubGraphPools {
